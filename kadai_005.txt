@@ -1,1 +1,35 @@
-内容
+mei04@LAPTOP-NNKCPLE4 MINGW64 ~ (main)
+$ git init git_challenge
+Initialized empty Git repository in C:/Users/mei04/git_challenge/.git/
+
+mei04@LAPTOP-NNKCPLE4 MINGW64 ~ (main)
+$ cd git_challenge
+
+
+mei04@LAPTOP-NNKCPLE4 MINGW64 ~/git_challenge (main)
+$ echo "Hello, world!" >> Hello_world.txt
+
+mei04@LAPTOP-NNKCPLE4 MINGW64 ~/git_challenge (main)
+$ git add Hello_world.txt
+warning: in the working copy of 'Hello_world.txt', LF will be replaced by CRLF the next time Git touches it
+
+mei04@LAPTOP-NNKCPLE4 MINGW64 ~/git_challenge (main)
+$ git commit -m "Hello, world!"
+[main (root-commit) 75ef088] Hello, world!
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Hello_world.txt
+
+mei04@LAPTOP-NNKCPLE4 MINGW64 ~/git_challenge (main)
+$ git add Hello_world.txt
+warning: in the working copy of 'Hello_world.txt', LF will be replaced by CRLF the next time Git touches it
+
+mei04@LAPTOP-NNKCPLE4 MINGW64 ~/git_challenge (main)
+$ git commit -m "こんにちは、世界！を追加"
+[main 596519d] こんにちは、世界！を追加
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+mei04@LAPTOP-NNKCPLE4 MINGW64 ~/git_challenge (main)
+$ git log --oneline
+596519d (HEAD -> main) こんにちは、世界！を追加
+75ef088 Hello, world!
+
